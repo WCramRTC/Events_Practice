@@ -12,6 +12,7 @@ namespace Events_Practice
         public delegate void MessageReceivedHandler(string message);
 
         // Step 2: Declare the event using the delegate
+        // event
         public event MessageReceivedHandler MessageReceived;
 
         // Method to simulate receiving a message and raising the event
